@@ -5,7 +5,6 @@ const Perfil = () => {
     const [contadorLikes, setContadorLikes] = useState(0);
     const handleContador = () => {
         setContadorLikes(contadorLikes+1);
-        
     };
     return (
         <>
